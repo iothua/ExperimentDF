@@ -503,26 +503,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+    "/Users/chenghuaqing/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\UnityProject\\Github\\ExperimentOS\\ExperimentOS\\ExperimentOS.csproj",
+      "projectUniqueName": "/Users/chenghuaqing/UnityProject/ExperimentOS/ExperimentOS/ExperimentOS.csproj",
       "projectName": "ExperimentOS",
-      "projectPath": "E:\\UnityProject\\Github\\ExperimentOS\\ExperimentOS\\ExperimentOS.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\UnityProject\\Github\\ExperimentOS\\ExperimentOS\\obj\\",
+      "projectPath": "/Users/chenghuaqing/UnityProject/ExperimentOS/ExperimentOS/ExperimentOS.csproj",
+      "packagesPath": "/Users/chenghuaqing/.nuget/packages/",
+      "outputPath": "/Users/chenghuaqing/UnityProject/ExperimentOS/ExperimentOS/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/chenghuaqing/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -562,7 +564,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }
