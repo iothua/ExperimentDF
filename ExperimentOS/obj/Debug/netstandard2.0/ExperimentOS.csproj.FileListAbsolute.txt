@@ -1,8 +1,0 @@
-E:\UnityProject\Github\ExperimentOS\ExperimentOS\bin\Debug\netstandard2.0\ExperimentOS.deps.json
-E:\UnityProject\Github\ExperimentOS\ExperimentOS\bin\Debug\netstandard2.0\ExperimentOS.dll
-E:\UnityProject\Github\ExperimentOS\ExperimentOS\bin\Debug\netstandard2.0\ExperimentOS.pdb
-E:\UnityProject\Github\ExperimentOS\ExperimentOS\obj\Debug\netstandard2.0\ExperimentOS.AssemblyInfoInputs.cache
-E:\UnityProject\Github\ExperimentOS\ExperimentOS\obj\Debug\netstandard2.0\ExperimentOS.AssemblyInfo.cs
-E:\UnityProject\Github\ExperimentOS\ExperimentOS\obj\Debug\netstandard2.0\ExperimentOS.csproj.CoreCompileInputs.cache
-E:\UnityProject\Github\ExperimentOS\ExperimentOS\obj\Debug\netstandard2.0\ExperimentOS.dll
-E:\UnityProject\Github\ExperimentOS\ExperimentOS\obj\Debug\netstandard2.0\ExperimentOS.pdb

@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ExperimentOS")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ExperimentDF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("ExperimentOS")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ExperimentOS")]
+[assembly: System.Reflection.AssemblyProductAttribute("ExperimentDF")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ExperimentDF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // 由 MSBuild WriteCodeFragment 类生成。

@@ -7,13 +7,13 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "ExperimentOS/1.0.0": {
+      "ExperimentDF/1.0.0": {
         "dependencies": {
           "Autofac": "6.1.0",
           "NETStandard.Library": "2.0.3"
         },
         "runtime": {
-          "ExperimentOS.dll": {}
+          "ExperimentDF.dll": {}
         }
       },
       "Autofac/6.1.0": {
@@ -107,7 +107,7 @@
     }
   },
   "libraries": {
-    "ExperimentOS/1.0.0": {
+    "ExperimentDF/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
