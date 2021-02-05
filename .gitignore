@@ -22,3 +22,15 @@ Unity/obj/
 Unity/Logs/
 
 ExperimentOS/obj/
+
+Unity/Loxodon.Framework.Addressable.csproj
+
+Unity/Loxodon.Framework.csproj
+
+Unity/Loxodon.Framework.Editor.csproj
+
+Unity/Loxodon.Log.csproj
+
+Unity/UnityEditor.UI.csproj
+
+Unity/UnityEngine.UI.csproj

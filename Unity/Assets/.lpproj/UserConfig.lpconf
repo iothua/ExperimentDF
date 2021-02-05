@@ -1,0 +1,153 @@
+<GlobalConfig CodeFontSize = "22"/>
+<BreakpointList/>
+<WatchList/>
+<ProjectUI>
+  <TreeState BaseX = "0" BaseY = "0" AlternativeItem = "LuaFolders#Assets#ThirdParty#XLua#Examples#03_UIEvent">
+    <SelectedList>
+      <Selected Path = "LuaFolders#Assets#ThirdParty#XLua#Examples#02_U3DScripting#LuaTestScript.lua.txt"/>
+    </SelectedList>
+    <ExpandedList>
+      <Expanded Path = "LuaFolders"/>
+      <Expanded Path = "LuaFolders#Assets"/>
+      <Expanded Path = "LuaFolders#Assets#LoxodonFramework#Resources"/>
+      <Expanded Path = "LuaFolders#Assets#LoxodonFramework#Samples#Loxodon Framework"/>
+      <Expanded Path = "LuaFolders#Assets#LoxodonFramework#Samples#Loxodon Framework#2.0.0"/>
+      <Expanded Path = "LuaFolders#Assets#LoxodonFramework#Samples#Loxodon Framework#2.0.0#Examples"/>
+      <Expanded Path = "LuaFolders#Assets#LoxodonFramework#Samples#Loxodon Framework#2.0.0#Examples#Resources#LocalizationExamples"/>
+      <Expanded Path = "LuaFolders#Assets#LoxodonFramework#Samples#Loxodon Framework#2.0.0#Tutorials"/>
+      <Expanded Path = "LuaFolders#Assets#LoxodonFramework#Samples#Loxodon Framework#2.0.0#Tutorials#Resources"/>
+      <Expanded Path = "LuaFolders#Assets#LoxodonFramework#Samples#Loxodon Framework#2.0.0#Tutorials#Resources#LocalizationTutorials"/>
+      <Expanded Path = "LuaFolders#Assets#ThirdParty"/>
+      <Expanded Path = "LuaFolders#Assets#ThirdParty#XLua"/>
+      <Expanded Path = "LuaFolders#Assets#ThirdParty#XLua#Examples"/>
+      <Expanded Path = "LuaFolders#Assets#ThirdParty#XLua#Examples#02_U3DScripting"/>
+      <Expanded Path = "LuaFolders#Assets#ThirdParty#XLua#Examples#07_AsyncTest#Resources"/>
+      <Expanded Path = "LuaFolders#Assets#ThirdParty#XLua#Examples#09_GenericMethod"/>
+      <Expanded Path = "LuaFolders#Assets#ThirdParty#XLua#Examples#10_SignatureLoader#otherfiles"/>
+      <Expanded Path = "LuaFolders#Assets#ThirdParty#XLua#Tutorial#LoadLuaScript"/>
+    </ExpandedList>
+  </TreeState>
+</ProjectUI>
+<FindAnReplaceUI
+  Pattern = "function"
+  MatchCase = "false"
+  MatchWholeWord = "false"
+  UseRegEx = "false"
+  Target = "<CurrentProject>"
+  Replace = ""/>
+<MainWindow
+  X = "320"
+  Y = "160"
+  Width = "1280"
+  Height = "720"
+  Maximized = "true"
+  LastCodeFilename = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/ThirdParty/XLua/Examples/07_AsyncTest/Resources/async_test.lua.txt">
+  <DockingControl>
+    <DockingNode DockingDirection = "Horizontal">
+      <DockingNode DockingDirection = "None">
+        <DockingBlock Width = "437" Height = "923" DocumentStyle = "false">
+          <DockingCard
+            Text = "Project"
+            Tag = ""
+            ActivePage = "true"
+            ActivateTime = "0"/>
+          <DockingCard
+            Text = "Outline"
+            Tag = ""
+            ActivePage = "false"
+            ActivateTime = "0"/>
+        </DockingBlock>
+      </DockingNode>
+      <DockingNode DockingDirection = "Vertical">
+        <DockingNode DockingDirection = "None">
+          <DockingBlock Width = "1464" Height = "658" DocumentStyle = "true">
+            <DockingCard
+              Text = "signatured1.lua"
+              Tag = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/ThirdParty/XLua/Examples/10_SignatureLoader/otherfiles/signatured1.lua"
+              ActivePage = "false"
+              ActivateTime = "448205494"
+              CaretLineIndex = "0"
+              CaretCodeCharIndex = "0"
+              BaseX = "0"
+              BaseY = "0"/>
+            <DockingCard
+              Text = "signatured2.lua"
+              Tag = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/ThirdParty/XLua/Examples/10_SignatureLoader/otherfiles/signatured2.lua"
+              ActivePage = "false"
+              ActivateTime = "448207701"
+              CaretLineIndex = "0"
+              CaretCodeCharIndex = "0"
+              BaseX = "0"
+              BaseY = "0"/>
+            <DockingCard
+              Text = "signatured3.lua"
+              Tag = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/ThirdParty/XLua/Examples/10_SignatureLoader/otherfiles/signatured3.lua"
+              ActivePage = "false"
+              ActivateTime = "448216764"
+              CaretLineIndex = "0"
+              CaretCodeCharIndex = "0"
+              BaseX = "0"
+              BaseY = "0"/>
+            <DockingCard
+              Text = "signatured2.lua"
+              Tag = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/ThirdParty/XLua/Examples/10_SignatureLoader/signatured2.lua"
+              ActivePage = "false"
+              ActivateTime = "448219677"
+              CaretLineIndex = "0"
+              CaretCodeCharIndex = "0"
+              BaseX = "0"
+              BaseY = "0"/>
+            <DockingCard
+              Text = "async_test.lua.txt"
+              Tag = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/ThirdParty/XLua/Examples/07_AsyncTest/Resources/async_test.lua.txt"
+              ActivePage = "true"
+              ActivateTime = "448308542"
+              CaretLineIndex = "28"
+              CaretCodeCharIndex = "3"
+              BaseX = "0"
+              BaseY = "0"/>
+          </DockingBlock>
+        </DockingNode>
+        <DockingNode DockingDirection = "None">
+          <DockingBlock Width = "1464" Height = "258" DocumentStyle = "false">
+            <DockingCard
+              Text = "Output"
+              Tag = ""
+              ActivePage = "true"
+              ActivateTime = "0"/>
+            <DockingCard
+              Text = "Call Stack"
+              Tag = ""
+              ActivePage = "false"
+              ActivateTime = "0"/>
+            <DockingCard
+              Text = "Locals"
+              Tag = ""
+              ActivePage = "false"
+              ActivateTime = "0"/>
+            <DockingCard
+              Text = "Globals"
+              Tag = ""
+              ActivePage = "false"
+              ActivateTime = "0"/>
+            <DockingCard
+              Text = "Watches"
+              Tag = ""
+              ActivePage = "false"
+              ActivateTime = "0"/>
+            <DockingCard
+              Text = "Autos"
+              Tag = ""
+              ActivePage = "false"
+              ActivateTime = "0"/>
+            <DockingCard
+              Text = "Breakpoints"
+              Tag = ""
+              ActivePage = "false"
+              ActivateTime = "0"/>
+          </DockingBlock>
+        </DockingNode>
+      </DockingNode>
+    </DockingNode>
+  </DockingControl>
+</MainWindow>
