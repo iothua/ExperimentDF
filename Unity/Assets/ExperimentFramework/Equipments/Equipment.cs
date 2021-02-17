@@ -1,25 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using ExperimentFramework.Interactive;
 
-public class Equipment : MonoBehaviour
+namespace ExperimentFramework.Equipments
 {
-    public string fileName;
-
-    public InteractiveBehavior Behavior;
-
-    public IEnumerator Build()
+    public class Equipment : MonoBehaviour
     {
-        yield return Build(fileName);
+        public string fileName;
+
+        public InteractiveBehavior Behavior;
+
+        public IEnumerator Build()
+        {
+            yield return Build(fileName);
+        }
+
+        public IEnumerator Build(string fileName)
+        {
+            //创建碰撞体、模型、特效等
+            //创建距离检测点
+
+            yield break;
+        }
+
+
     }
-
-    public IEnumerator Build(string fileName)
-    {
-        //创建碰撞体、模型、特效等
-        //创建距离检测点
-
-        yield break;
-    }
-
-
 }
+
