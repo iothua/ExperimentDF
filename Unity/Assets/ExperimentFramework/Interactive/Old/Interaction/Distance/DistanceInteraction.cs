@@ -11,7 +11,7 @@ namespace ExperimentFramework.Interactive.Distance
     [System.Serializable]
     public class EventDistanceInteraction :UnityEvent<DistanceInteraction> { }
 
-    public class EventDistanceInteractionRelease :UnityEvent<DistanceInteraction,InteractionReleaseStatus> { }
+    public class EventDistanceInteractionRelease :UnityEvent<DistanceInteraction,InteractiveStatus> { }
 
     /// <summary>
     /// 多仪器数据
@@ -257,7 +257,7 @@ namespace ExperimentFramework.Interactive.Distance
         /// </summary>
         /// <param name="distanceInteraction"></param>
         /// <param name="status"></param>
-        public virtual void OnDistanceRelease(DistanceInteraction distanceInteraction,InteractionReleaseStatus status)
+        public virtual void OnDistanceRelease(DistanceInteraction distanceInteraction,InteractiveStatus status)
         {
             //Debug.Log("OnDistanceRelease IsGrab");
             IsGrab = false;
@@ -402,9 +402,9 @@ namespace ExperimentFramework.Interactive.Distance
                         {
                             OnDistanceRelesae(interaction);
                             if (isAuto)
-                                OnDistanceRelease(interaction,InteractionReleaseStatus.IsAuto);
+                                OnDistanceRelease(interaction,InteractiveStatus.IsAuto);
                             else
-                                OnDistanceRelease(interaction,InteractionReleaseStatus.Inside);
+                                OnDistanceRelease(interaction,InteractiveStatus.Inside);
                             return;
                         }
                     }
@@ -414,9 +414,9 @@ namespace ExperimentFramework.Interactive.Distance
                         {
                             OnDistanceRelesae(interaction);
                             if (isAuto)
-                                OnDistanceRelease(interaction,InteractionReleaseStatus.IsAuto);
+                                OnDistanceRelease(interaction,InteractiveStatus.IsAuto);
                             else
-                                OnDistanceRelease(interaction,InteractionReleaseStatus.Inside);
+                                OnDistanceRelease(interaction,InteractiveStatus.Inside);
                             return;
                         }
                     }
@@ -425,9 +425,9 @@ namespace ExperimentFramework.Interactive.Distance
 
                     OnDistanceRelesae(interaction);
                     if (isAuto)
-                        OnDistanceRelease(interaction,InteractionReleaseStatus.IsAuto);
+                        OnDistanceRelease(interaction,InteractiveStatus.IsAuto);
                     else
-                        OnDistanceRelease(interaction,InteractionReleaseStatus.Once);
+                        OnDistanceRelease(interaction,InteractiveStatus.Once);
 
                     if (distanceData.IsOnly)
                     {
@@ -447,18 +447,18 @@ namespace ExperimentFramework.Interactive.Distance
                     {
                         OnDistanceRelesae(interaction);
                         if (isAuto)
-                            OnDistanceRelease(interaction,InteractionReleaseStatus.IsAuto);
+                            OnDistanceRelease(interaction,InteractiveStatus.IsAuto);
                         else
-                            OnDistanceRelease(interaction,InteractionReleaseStatus.Inside);
+                            OnDistanceRelease(interaction,InteractiveStatus.Inside);
 
                         return;
                     }
 
                     OnDistanceRelesae(interaction);
                     if (isAuto)
-                        OnDistanceRelease(interaction,InteractionReleaseStatus.IsAuto);
+                        OnDistanceRelease(interaction,InteractiveStatus.IsAuto);
                     else
-                        OnDistanceRelease(interaction,InteractionReleaseStatus.Once);
+                        OnDistanceRelease(interaction,InteractiveStatus.Once);
 
                     AddSendDistance(interaction);
 
@@ -472,7 +472,7 @@ namespace ExperimentFramework.Interactive.Distance
         public void OnInteractionNotRelease()
         {
             OnDistanceNotInteractionRelease();
-            OnDistanceRelease(null,InteractionReleaseStatus.None);
+            OnDistanceRelease(null,InteractiveStatus.None);
         }
 
         /// <summary>
