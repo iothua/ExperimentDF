@@ -1,4 +1,5 @@
-﻿using ExperimentFramework.Equipments;
+﻿using System;
+using ExperimentFramework.Equipments;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,17 +16,20 @@ namespace ExperimentFramework.Interactive
 
         public OperateStatus Status { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
         public EquipmentLocation Location { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
+
         public string Guid { get; set; }
 
         public Features Features => features;
 
-        public UnityEvent OnInitializeEquipment;
-        public UnityEvent OnDestroyEquipment;
-
-        public EventInteractionEquipment OnEquipmentEnter;
-        public EventInteractionEquipment OnEquipmentExit;
-        public EventInteractionEquipment OnEquipmentStay;
-        public EventInteractionEquipmentRelease OnEquipmentRelease;
+        public Func<InteractiveBehavior, bool> OnCanInteractive;
+        
+        public UnityEvent OnInitializeInteractive;
+        public UnityEvent OnDestroyInteractive;
+        
+        public EventInteractive OnInteractiveEnter;
+        public EventInteractive OnInteractiveExit;
+        public EventInteractive OnInteractiveStay;
+        public EventInteractiveStatus OnInteractiveRelease;
     }
 }
 

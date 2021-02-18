@@ -4,6 +4,26 @@ using System;
 namespace ExperimentFramework.Interactive
 {
     /// <summary>
+    /// 交互数据
+    /// </summary>
+    [Serializable]
+    public class InteractiveData
+    {
+        public string TagID;
+        public InteractiveType Type;
+    }
+
+    /// <summary>
+    /// 交互类型
+    /// </summary>
+    public enum InteractiveType
+    {
+        Distance,
+        Raycast,
+        Collision
+    }
+
+    /// <summary>
     /// 交互状态
     /// </summary>
     public enum InteractiveStatus
@@ -27,13 +47,13 @@ namespace ExperimentFramework.Interactive
     }
 
      [Serializable]
-    public class EventInteractionEquipment : UnityEvent<InteractiveBehavior, InteractiveBase>
+    public class EventInteractive : UnityEvent<InteractiveBehavior, InteractiveBase>
     {
 
     }
 
     [Serializable]
-    public class EventInteractionEquipmentRelease : UnityEvent<InteractiveBehavior, InteractiveBase, InteractiveStatus>
+    public class EventInteractiveStatus : UnityEvent<InteractiveBehavior, InteractiveBase, InteractiveStatus>
     {
 
     }

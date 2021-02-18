@@ -238,22 +238,44 @@ namespace ExperimentFramework
         {
             if (isLocal)
             {
-                transform.localPosition = transformData.Position.UnityVector();
-                transform.localRotation = Quaternion.Euler(transformData.Rotate.UnityVector());
-                transform.localScale = transformData.Scale.UnityVector();
+                transform.localPosition = transformData.Position;
+                transform.localRotation = Quaternion.Euler(transformData.Rotate);
+                transform.localScale = transformData.Scale;
             }
             else
             {
 
                 transform.SetParent(null);
 
-                transform.position = transformData.Position.UnityVector();
-                transform.rotation = Quaternion.Euler(transformData.Rotate.UnityVector());
-                transform.localScale = transformData.Scale.UnityVector();
+                transform.position = transformData.Position;
+                transform.rotation = Quaternion.Euler(transformData.Rotate);
+                transform.localScale = transformData.Scale;
             }
 
         }
-        
+
+        /// <summary>
+        /// String类型转化欸Vector3
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns></returns>
+        public static Vector3 ToVector3(this string value)
+        {
+            string newStr = value.Replace("(", "").Replace(")", "");
+            string[] s = newStr.Split('|');
+            
+            Vector3 vector3=Vector3.zero;
+            
+            try
+            {
+                return vector3 = new Vector3(float.Parse(s[0]), float.Parse(s[1]), float.Parse(s[2]));
+            }
+            catch
+            {
+                return vector3=Vector3.zero;
+            }
+        }
+
         /// <summary>
         /// 获得网格最小点，默认支持蒙皮网格
         /// </summary>

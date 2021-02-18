@@ -1,4 +1,5 @@
 ﻿using System;
+using Newtonsoft.Json;
 using UnityEngine;
 
 namespace ExperimentFramework
@@ -53,9 +54,34 @@ namespace ExperimentFramework
     {
         //是否是局部坐标
         public bool IsLocal;
-        public EVector3 Position;
-        public EVector3 Rotate;
-        public EVector3 Scale = EVector3.one;
+        
+        [JsonIgnore]
+        public Vector3 Position;
+        [JsonIgnore]
+        public Vector3 Rotate;
+        [JsonIgnore]
+        public Vector3 Scale = Vector3.one;
+        public string PositionStr
+        {
+            get => Position.ToString();
+            set=>Position = value.ToVector3();
+        }
+
+        public string RotateStr
+        {
+            get => Rotate.ToString();
+            set =>Rotate = value.ToVector3();
+        }
+        
+        public string ScaleStr
+        {
+            get => Scale.ToString();
+            set => Scale = value.ToVector3();
+        }
+
+        public TransformData()
+        {
+        }
 
         public TransformData(Transform transform,bool isLocal=false)
         {
@@ -63,15 +89,15 @@ namespace ExperimentFramework
 
             if (isLocal)
             {
-                Position=new EVector3(transform.localPosition);
-                Rotate=new EVector3(transform.localRotation.eulerAngles);
+                Position=transform.localPosition;
+                Rotate=transform.localRotation.eulerAngles;
             }
             else
             {
-                Position=new EVector3(transform.position);
-                Rotate = new EVector3(transform.rotation.eulerAngles);
+                Position=transform.position;
+                Rotate = transform.rotation.eulerAngles;
             }
-            Scale=new EVector3(transform.localScale);
+            Scale=transform.localScale;
         }
     }
     
