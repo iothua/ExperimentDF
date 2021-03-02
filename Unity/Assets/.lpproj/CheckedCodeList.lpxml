@@ -28,7 +28,7 @@
   <CheckedCodeItem Filename = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/ThirdParty/XLua/Examples/06_Coroutine/Resources/coruntine_test.lua.txt" ModifyTime = "1611124905307"/>
   <CheckedCodeItem Filename = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/ThirdParty/XLua/Examples/06_Coroutine/Resources/cs_coroutine.lua.txt" ModifyTime = "1611124905339"/>
   <CheckedCodeItem Filename = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/ThirdParty/LoxodonFramework/XLua/Resources/framework/ObservableObject.lua.txt" ModifyTime = "1609321486000"/>
-  <CheckedCodeItem Filename = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/ThirdParty/XLua/Examples/07_AsyncTest/Resources/message_box.lua.txt" ModifyTime = "1611124905573"/>
+  <CheckedCodeItem Filename = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/ThirdParty/XLua/Examples/07_AsyncTest/Resources/message_box.lua.txt" ModifyTime = "1614061390753"/>
   <CheckedCodeItem Filename = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/ThirdParty/XLua/Examples/07_AsyncTest/Resources/async_test.lua.txt" ModifyTime = "1611124905540"/>
   <CheckedCodeItem Filename = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/ThirdParty/LoxodonFramework/XLua/Resources/framework/Logger.lua.txt" ModifyTime = "1595387878000"/>
   <CheckedCodeItem Filename = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/ThirdParty/XLua/Examples/10_SignatureLoader/otherfiles/signatured2.lua" ModifyTime = "1611124906239"/>
@@ -41,4 +41,10 @@
   <CheckedCodeItem Filename = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/ThirdParty/XLua/Resources/tdr/tdr.lua.txt" ModifyTime = "1611124908228"/>
   <CheckedCodeItem Filename = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/ThirdParty/XLua/Resources/xlua/util.lua.txt" ModifyTime = "1611124908267"/>
   <CheckedCodeItem Filename = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/ThirdParty/XLua/Src/Editor/Template/TemplateCommon.lua.txt" ModifyTime = "1611124910365"/>
+  <CheckedCodeItem Filename = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/XLuaDemo/Examples/02_U3DScripting/LuaTestScript.lua.txt" ModifyTime = "1613988198194"/>
+  <CheckedCodeItem Filename = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/XLuaDemo/Examples/03_UIEvent/ButtonInteraction.lua.txt" ModifyTime = "1613990118984"/>
+  <CheckedCodeItem Filename = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/XLuaDemo/Examples/06_Coroutine/Resources/cs_coroutine.lua.txt" ModifyTime = "1614046021129"/>
+  <CheckedCodeItem Filename = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/XLuaDemo/Examples/06_Coroutine/Resources/coruntine_test.lua.txt" ModifyTime = "1614045448066"/>
+  <CheckedCodeItem Filename = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/XLuaDemo/Examples/07_AsyncTest/Resources/async_test.lua.txt" ModifyTime = "1614050523968"/>
+  <CheckedCodeItem Filename = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/XLuaDemo/Examples/07_AsyncTest/Resources/message_box.lua.txt" ModifyTime = "1614051467146"/>
 </CheckedCodeList>

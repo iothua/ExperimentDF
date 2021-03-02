@@ -34,3 +34,9 @@ Unity/Loxodon.Log.csproj
 Unity/UnityEditor.UI.csproj
 
 Unity/UnityEngine.UI.csproj
+
+Unity/HighlightPlus.csproj
+
+Unity/Sirenix.OdinInspector.CompatibilityLayer.csproj
+
+Unity/Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj
