@@ -221,7 +221,7 @@ MonoBehaviour:
   JumpCooldown: 0.3
   JumpMask:
     serializedVersion: 2
-    m_Bits: 1867575
+    m_Bits: 55
 --- !u!114 &114268657871063250
 MonoBehaviour:
   m_ObjectHideFlags: 0
