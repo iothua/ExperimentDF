@@ -2,9 +2,9 @@
 <BreakpointList/>
 <WatchList/>
 <ProjectUI>
-  <TreeState BaseX = "0" BaseY = "-142" AlternativeItem = "LuaFolders#Assets#ThirdParty#XLua#Examples#10_SignatureLoader#Resources">
+  <TreeState BaseX = "0" BaseY = "0" AlternativeItem = "LuaFolders#Assets#XLuaDemo">
     <SelectedList>
-      <Selected Path = "LuaFolders#Assets#ThirdParty#XLua#Examples#10_SignatureLoader#otherfiles#signatured3.lua"/>
+      <Selected Path = "LuaFolders#Assets#XLua"/>
     </SelectedList>
     <ExpandedList>
       <Expanded Path = "LuaFolders"/>
@@ -17,18 +17,11 @@
       <Expanded Path = "LuaFolders#Assets#LoxodonFramework#Samples#Loxodon Framework#2.0.0#Tutorials"/>
       <Expanded Path = "LuaFolders#Assets#LoxodonFramework#Samples#Loxodon Framework#2.0.0#Tutorials#Resources"/>
       <Expanded Path = "LuaFolders#Assets#LoxodonFramework#Samples#Loxodon Framework#2.0.0#Tutorials#Resources#LocalizationTutorials"/>
-      <Expanded Path = "LuaFolders#Assets#ThirdParty"/>
-      <Expanded Path = "LuaFolders#Assets#ThirdParty#XLua"/>
-      <Expanded Path = "LuaFolders#Assets#ThirdParty#XLua#Examples"/>
-      <Expanded Path = "LuaFolders#Assets#ThirdParty#XLua#Examples#03_UIEvent"/>
       <Expanded Path = "LuaFolders#Assets#ThirdParty#XLua#Examples#07_AsyncTest"/>
       <Expanded Path = "LuaFolders#Assets#ThirdParty#XLua#Examples#07_AsyncTest#Resources"/>
       <Expanded Path = "LuaFolders#Assets#ThirdParty#XLua#Examples#09_GenericMethod"/>
-      <Expanded Path = "LuaFolders#Assets#ThirdParty#XLua#Examples#10_SignatureLoader"/>
       <Expanded Path = "LuaFolders#Assets#ThirdParty#XLua#Examples#10_SignatureLoader#otherfiles"/>
       <Expanded Path = "LuaFolders#Assets#ThirdParty#XLua#Tutorial#LoadLuaScript"/>
-      <Expanded Path = "LuaFolders#Assets#XLuaDemo"/>
-      <Expanded Path = "LuaFolders#Assets#XLuaDemo#Examples"/>
     </ExpandedList>
   </TreeState>
 </ProjectUI>
@@ -68,9 +61,9 @@
             Text = "signatured3.lua"
             Tag = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/ThirdParty/XLua/Examples/10_SignatureLoader/otherfiles/signatured3.lua"
             ActivePage = "true"
-            ActivateTime = "431914079"
+            ActivateTime = "7348368"
             CaretLineIndex = "0"
-            CaretCodeCharIndex = "0"
+            CaretCodeCharIndex = "28"
             BaseX = "0"
             BaseY = "0"/>
           <DockingCard
@@ -145,42 +138,6 @@
             CaretCodeCharIndex = "0"
             BaseX = "0"
             BaseY = "0"/>
-          <DockingCard
-            Text = "message_box.lua.txt"
-            Tag = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/XLuaDemo/Examples/07_AsyncTest/Resources/message_box.lua.txt"
-            ActivePage = "false"
-            ActivateTime = "416753649"
-            CaretLineIndex = "24"
-            CaretCodeCharIndex = "5"
-            BaseX = "0"
-            BaseY = "-143"/>
-          <DockingCard
-            Text = "async_test.lua.txt"
-            Tag = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/XLuaDemo/Examples/07_AsyncTest/Resources/async_test.lua.txt"
-            ActivePage = "false"
-            ActivateTime = "14879690"
-            CaretLineIndex = "25"
-            CaretCodeCharIndex = "13"
-            BaseX = "0"
-            BaseY = "0"/>
-          <DockingCard
-            Text = "ButtonInteraction.lua.txt"
-            Tag = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/XLuaDemo/Examples/03_UIEvent/ButtonInteraction.lua.txt"
-            ActivePage = "false"
-            ActivateTime = "2374576"
-            CaretLineIndex = "16"
-            CaretCodeCharIndex = "2"
-            BaseX = "0"
-            BaseY = "0"/>
-          <DockingCard
-            Text = "LuaTestScript.lua.txt"
-            Tag = "E:/UnityProject/Github/ExperimentDF/Unity/Assets/XLuaDemo/Examples/02_U3DScripting/LuaTestScript.lua.txt"
-            ActivePage = "false"
-            ActivateTime = "361190551"
-            CaretLineIndex = "16"
-            CaretCodeCharIndex = "37"
-            BaseX = "0"
-            BaseY = "-198"/>
         </DockingBlock>
       </DockingNode>
     </DockingNode>

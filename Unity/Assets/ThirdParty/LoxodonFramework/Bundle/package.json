@@ -1,0 +1,25 @@
+{
+  "name": "com.vovgou.loxodon-framework-bundle",
+  "displayName": "Loxodon Framework Bundle",
+  "version": "2.0.2",
+  "unity": "2018.4",
+  "description": "Loxodon Framework Bundle is an AssetBundle manager.It provides a functionality that can automatically manage/load an AssetBundle and its dependencies from local or remote location.Asset Dependency Management including BundleManifest that keep track of every AssetBundle and all of their dependencies. An AssetBundle Simulation Mode which allows for iterative testing of AssetBundles in a the Unity editor without ever building an AssetBundle.\n\n\n\nThe Loxodon Framework Bundle includes all the source code, it works alone, or works with the Loxodon Framework, AssetBundles-Browser.",  
+  "license": "MIT",
+  "keywords": [
+    "Loxodon",
+    "Framework",
+    "AssetBundle",
+    "Resources",
+    "MVVM"
+  ],
+  "author": {
+    "name": "Clark Yang",
+    "email": "yangpc.china@gmail.com",
+    "url": "https://github.com/vovgou/loxodon-framework"
+  },
+  "category": "GUI",
+  "relatedPackages": {},
+  "dependencies": {
+    "com.vovgou.loxodon-framework": "2.0.1"
+  }
+}

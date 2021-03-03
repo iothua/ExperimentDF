@@ -40,3 +40,7 @@ Unity/HighlightPlus.csproj
 Unity/Sirenix.OdinInspector.CompatibilityLayer.csproj
 
 Unity/Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj
+
+Unity/Loxodon.Framework.Bundle.csproj
+
+Unity/Loxodon.Framework.Bundle.Editor.csproj

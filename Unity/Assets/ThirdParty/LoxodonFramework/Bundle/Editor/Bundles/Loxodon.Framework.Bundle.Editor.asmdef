@@ -1,0 +1,19 @@
+{
+    "name": "Loxodon.Framework.Bundle.Editor",
+    "references": [
+        "Loxodon.Log",
+        "Loxodon.Framework",
+        "Loxodon.Framework.Editor",
+        "Loxodon.Framework.Bundle"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
