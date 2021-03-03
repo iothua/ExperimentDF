@@ -14,7 +14,7 @@ namespace App
     /// </summary>
     public class ExperimentConfigWindow : OdinMenuEditorWindow
     {
-        [MenuItem("Tools/HuaCore/实验数据配置窗口 _F11")]
+        [MenuItem("实验帮/实验数据配置窗口 _F11")]
         private static void OpenWindow()
         {
             var window = GetWindow<ExperimentConfigWindow>();
