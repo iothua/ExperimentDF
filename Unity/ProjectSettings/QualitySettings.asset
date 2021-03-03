@@ -21,7 +21,7 @@ QualitySettings:
     skinWeights: 2
     textureQuality: 0
     anisotropicTextures: 0
-    antiAliasing: 0
+    antiAliasing: 2
     softParticles: 0
     softVegetation: 0
     realtimeReflectionProbes: 0
@@ -40,7 +40,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 11400000, guid: a31e9f9f9c9d4b9429ed0d1234e22103,
+    customRenderPipeline: {fileID: 11400000, guid: 435d78aaf9aac18489da26757348eef8,
       type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
@@ -58,7 +58,7 @@ QualitySettings:
     skinWeights: 2
     textureQuality: 0
     anisotropicTextures: 1
-    antiAliasing: 0
+    antiAliasing: 4
     softParticles: 0
     softVegetation: 0
     realtimeReflectionProbes: 0
@@ -77,7 +77,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 11400000, guid: d847b876476d3d6468f5dfcd34266f96,
+    customRenderPipeline: {fileID: 11400000, guid: 40a9bae5be0701f4bad9140e0be53d8c,
       type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
@@ -114,10 +114,11 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 0}
+    customRenderPipeline: {fileID: 11400000, guid: b638f38efbc9f0f4d81158532e148260,
+      type: 2}
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
-    Android: 1
+    Android: 2
     Lumin: 2
     Nintendo Switch: 2
     PS4: 2
